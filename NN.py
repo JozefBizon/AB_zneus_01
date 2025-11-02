@@ -4,6 +4,9 @@ import torch.optim as optim
 from sklearn.preprocessing import StandardScaler
 import numpy as np
 
+torch.manual_seed(0)
+torch.backends.cudnn.deterministic = True
+torch.backends.cudnn.benchmark = False
 
 class SimpleNN(nn.Module):
     def __init__(self, input_size):
