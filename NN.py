@@ -60,6 +60,7 @@ def evaluate_model(model, scaler, X_test, y_test):
     y_test_tensor = torch.tensor(y_test, dtype=torch.float32).unsqueeze(1)
 
     with torch.no_grad():
+        #y_pred = model(X_test_tensor)
         y_pred = torch.sigmoid(model(X_test_tensor))
         y_pred_labels = (y_pred > 0.5).float()
         accuracy = (y_pred_labels.eq(y_test_tensor).sum().item()) / y_test_tensor.size(0)
