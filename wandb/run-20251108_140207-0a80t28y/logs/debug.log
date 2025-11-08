@@ -1,0 +1,25 @@
+2025-11-08 14:02:07,044 INFO    MainThread:30356 [wandb_init.py:setup_run_log_directory():686] Logging user logs to C:\Users\bizon\Desktop\skola\5.semester\ZNEUS\projekt1\AB_zneus_01\wandb\run-20251108_140207-0a80t28y\logs\debug.log
+2025-11-08 14:02:07,044 INFO    MainThread:30356 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to C:\Users\bizon\Desktop\skola\5.semester\ZNEUS\projekt1\AB_zneus_01\wandb\run-20251108_140207-0a80t28y\logs\debug-internal.log
+2025-11-08 14:02:07,045 INFO    MainThread:30356 [wandb_init.py:init():813] calling init triggers
+2025-11-08 14:02:07,045 INFO    MainThread:30356 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'epochs': 5000, 'architecture': 'SimpleNN', 'hidden_layers': [16, 8], 'optimizer': 'Adam', 'loss_function': 'BCELoss', 'input_features': 6, 'training_samples': 6702, '_wandb': {}}
+2025-11-08 14:02:07,045 INFO    MainThread:30356 [wandb_init.py:init():861] starting backend
+2025-11-08 14:02:07,045 INFO    MainThread:30356 [wandb_init.py:init():864] sending inform_init request
+2025-11-08 14:02:07,047 INFO    MainThread:30356 [wandb_init.py:init():872] backend started and connected
+2025-11-08 14:02:07,050 INFO    MainThread:30356 [wandb_run.py:_label_probe_notebook():1330] probe notebook
+2025-11-08 14:02:07,051 INFO    MainThread:30356 [wandb_run.py:_label_probe_notebook():1340] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-11-08 14:02:07,051 INFO    MainThread:30356 [wandb_init.py:init():942] updated telemetry
+2025-11-08 14:02:07,094 INFO    MainThread:30356 [wandb_init.py:init():966] communicating run to backend with 90.0 second timeout
+2025-11-08 14:02:07,656 INFO    MainThread:30356 [wandb_init.py:init():1017] starting run threads in backend
+2025-11-08 14:02:07,769 INFO    MainThread:30356 [wandb_run.py:_console_start():2506] atexit reg
+2025-11-08 14:02:07,769 INFO    MainThread:30356 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-11-08 14:02:07,769 INFO    MainThread:30356 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-11-08 14:02:07,770 INFO    MainThread:30356 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-11-08 14:02:07,770 INFO    MainThread:30356 [wandb_init.py:init():1057] run started, returning control to user process
+2025-11-08 14:02:07,772 INFO    MainThread:30356 [wandb_watch.py:_watch():68] Watching
+2025-11-08 14:02:07,773 INFO    MainThread:30356 [wandb_run.py:_config_callback():1392] config_cb None None {'positive_samples': 2802, 'negative_samples': 3900, 'class_weight_ratio': 1.39186295503212}
+2025-11-08 14:02:21,951 INFO    MainThread:30356 [wandb_run.py:_finish():2272] finishing run bizon-mimi-stu/ZNEUS_project1/0a80t28y
+2025-11-08 14:02:21,951 INFO    MainThread:30356 [wandb_run.py:_atexit_cleanup():2471] got exitcode: 0
+2025-11-08 14:02:21,951 INFO    MainThread:30356 [wandb_run.py:_restore():2453] restore
+2025-11-08 14:02:21,951 INFO    MainThread:30356 [wandb_run.py:_restore():2459] restore done
+2025-11-08 14:02:27,296 INFO    MainThread:30356 [wandb_run.py:_footer_sync_info():3867] logging synced files

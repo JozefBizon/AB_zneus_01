@@ -1,0 +1,38 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.13.0",
+  "startedAt": "2025-11-08T13:01:47.355583Z",
+  "program": "project1-jvsc-b2baac58-8689-4fe7-bd02-373f61330df45568aae8-df49-4273-8870-207562db42ea.ipynb",
+  "git": {
+    "remote": "https://github.com/JozefBizon/AB_zneus_01.git",
+    "commit": "402ab8132f2dc4c45a7789454ad0449be79df149"
+  },
+  "email": "bizon.mimi@gmail.com",
+  "root": "C:\\Users\\bizon\\Desktop\\skola\\5.semester\\ZNEUS\\projekt1\\AB_zneus_01",
+  "host": "Bizon",
+  "executable": "C:\\Users\\bizon\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "cpu_count": 10,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1022782410752",
+      "used": "739942096896"
+    }
+  },
+  "memory": {
+    "total": "16782184448"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "memoryTotal": "6442450944",
+      "cudaCores": 3840,
+      "architecture": "Ampere",
+      "uuid": "GPU-715a99be-6dac-763a-f39e-e2722a57ecff"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "writerId": "2q9rzs7kgxtzogy8sqiw4dvywtbdnhgl"
+}
